@@ -76,7 +76,7 @@ select * from product where price in (200, 800);
 # 8. 查询价格不是800的所有商品
 select * from product where price != 800;
 # 9. 查询以'香'开头的所有商品
-select * from product where pname = "香%";
+select * from product where pname like "香%";
 # 10. 查询第二个字为'想'的所有商品
 select * from product where pname = "_想";
 # 11. 查询没有分类的商品
